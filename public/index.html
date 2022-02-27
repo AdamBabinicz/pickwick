@@ -1,43 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/3.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="Początkowo zeszyty z Klubem Pickwicka nie cieszyły się popularnością i wydawane były w liczbie 500 egzemplarzy. Ta sytuacja zmieniła się po wprowadzeniu do powieści humorystycznej postaci Sama Wellera, służącego głównego bohatera."
+    />
+    <meta
+      name="Od tego momentu utwór zyskał wielką popularność, czytelnicy domagali się wznowień poprzednich odcinków, a od dziesiątego zeszytu nakład sięgnął 40 tysięcy."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Popularność utworu zwiększyła się jeszcze, kiedy pisarz włączył do niego fragmenty dotyczące społecznej niesprawiedliwości i krzywdy, związane z pobytem bohatera w więzieniu dla dłużników."
+    />
+    <meta property="og:url" content="https://fryderyk-chopin.netlify.app" />
+    <meta
+      property="og:image"
+      content="https://fryderyk-chopin.netlify.app/19.jpg"
+    />
+    <meta property="fb:app_id" content="1951716098397474" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta
+      property="business:contact_data:street_address"
+      content="Klub Pickwicka"
+    />
+    <meta
+      property="business:contact_data:locality"
+      content="Książka była na tyle popularna, że pojawiło się wiele związanych z nią gadżetów – pickwickowskie kapelusze, cygara, materiały obiciowe, płaszcze i zbiory dowcipów."
+    />
+    <meta
+      property="business:contact_data:region"
+      content="Klub Pickwicka autorstwa Karola Dickensa to powieść, którą powinien przeczytać każdy, kto twierdzi, że zna się na literaturze."
+    />
+    <meta property="business:contact_data:postal_code" content="26-600" />
+    <meta
+      property="business:contact_data:country_name"
+      content="Pozornie jest to opowieść o grupce starszych panów, na czele których stoi wspomniany już Samuel Pickwick."
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="https://twitter.com/chopininstitute" />
+    <meta
+      name="twitter:title"
+      content="Autor rewelacyjnie radzi sobie z budowaniem napięcia, humorem sytuacyjnym i słownym."
+    />
+    <meta
+      name="twitter:description"
+      content="Nawiązujący również do konwencji „łotrzykowskiej”, „Klub Pickwicka” powstał w czasie największego rozkwitu powieści jako gatunku."
+    />
+    <meta
+      name="twitter:image"
+      content="https://fryderyk-chopin.netlify.app/13.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Satyryczne zacięcie Dickensa i jego ogromny talent literacki sprawił, że każdy bohater, nawet z drugiego czy trzeciego kręgu, ma charakterystyczne, niepowtarzalne cechy, nieraz komicznie wyolbrzymione."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Klub Pickwicka</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modalX"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "„Klub Pickwicka”",
+        "contentUrl": "https://pl-pl.facebook.com/instytut.chopina",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://fryderyk-chopin.netlify.app/2.jpg",
+        "uploadDate": "2022-02-27",
+        "description": "Ozdobą powieści jest Sam Weller, służący pana Pickwicka."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://fryderyk-chopin.netlify.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Debiut Charlesa Dickensa",
+        "url": "https://fryderyk-chopin.netlify.app",
+        "sameAs": [
+          "https://pl-pl.facebook.com/instytut.chopina",
+          "https://pl.wikipedia.org/wiki/Fryderyk_Chopin",
+          "https://twitter.com/chopininstitute",
+          "https://www.youtube.com/watch?v=P145ULbuzLw",
+          "https://pl.pinterest.com/claudiapriv/chopin"
+        ]
+      }
+    </script>
   </body>
 </html>
