@@ -91,10 +91,11 @@ article.nextSlide {
     margin-top: 15%;
   }
   .testimonial .left img {
-    width: 250px;
+    width: 100%;
     height: 250px;
     border-radius: 10px;
     margin-right: 20px;
+    background: orange;
   }
   .testimonial .right {
     display: none;

@@ -32,7 +32,7 @@ const Slide = ({
           <div className="img">
             <img src={image} alt="..." />
           </div>
-          <div className="details mtop">
+          <div className="details ">
             <span className="primary_color">{design}</span>
             <h2>{name}</h2>
             <label>{officer}</label>
