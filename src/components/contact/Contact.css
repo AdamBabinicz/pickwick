@@ -68,8 +68,8 @@
   }
   .content .imge img {
     width: 100%;
-    height: 30rem;
-    object-fit: cover;
+    height: 25rem;
+    object-fit: contain;
   }
   .contact .right img {
     width: 100%;
