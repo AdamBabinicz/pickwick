@@ -77,6 +77,9 @@
   object-fit: contain;
 }
 @media (max-width: 768px) {
+  .her h1 {
+    font-size: 30px;
+  }
   .hero .right,
   .hero .left {
     width: 100%;
