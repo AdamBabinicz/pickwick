@@ -28,3 +28,8 @@
   color: white;
   opacity: 1;
 }
+@media only screen and (max-width: 768px) {
+  .features .box img {
+    height: 20rem;
+  }
+}
