@@ -11,7 +11,7 @@ header .logo {
   font-family: "Berkshire Swash", cursive;
 }
 header .logo img {
-  width: 100%;
+  width: 5rem;
   height: 5rem;
   object-fit: contain;
 }
@@ -68,10 +68,9 @@ header ul li a:hover {
   }
   header .logo {
     justify-content: start;
-    width: 30%;
   }
   header .logo img {
-    /* margin-left: -3rem; */
+    width: 2rem;
     height: 2rem;
   }
   header ul {
