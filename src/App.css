@@ -15,6 +15,7 @@ font-family: 'Old Standard TT', serif; */
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   font-family: "Old Standard TT", serif;
