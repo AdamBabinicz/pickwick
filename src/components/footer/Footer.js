@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div>
-        <div className="container_f text-center">
+        <div className="cont_f text-center">
           <div className="image">
             <img src={logo} alt="..." />
           </div>
