@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div>
         <div className="cont_f ">
-          <div className="image">
+          <div className="imge">
             <img src={logo} alt="..." />
           </div>
           <p>Radom, 2022 - {new Date().getFullYear()}.</p>
