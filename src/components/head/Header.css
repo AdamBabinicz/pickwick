@@ -17,6 +17,8 @@ header .logo img {
 }
 header ul li {
   margin-left: 30px;
+  display: flex;
+  align-items: center;
 }
 header ul li a {
   transition: all 0.4s ease-in-out;
@@ -29,7 +31,7 @@ header ul li a:hover {
   color: #ff014f;
 }
 .home-btn {
-  padding: 18px 25px;
+  padding: 0.5rem 2rem;
   border-radius: 6px;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
@@ -101,7 +103,7 @@ header ul li a:hover {
   .close,
   .open {
     position: absolute;
-    top: 35px;
+    top: 15px;
     right: 20px;
     color: #ff014f;
     display: block;
