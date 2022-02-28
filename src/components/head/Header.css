@@ -65,7 +65,7 @@ header ul li a:hover {
   }
   header .logo {
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
   header .logo img {
     width: 100%;
