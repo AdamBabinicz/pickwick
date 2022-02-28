@@ -67,7 +67,7 @@ header ul li a:hover {
   }
   header .logo {
     justify-content: start;
-    background: green;
+    background: orange;
   }
   header .logo img {
     width: 100%;
