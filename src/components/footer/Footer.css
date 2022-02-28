@@ -1,9 +1,11 @@
 .container_f {
   height: 200px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Berkshire Swash", cursive;
+  background: violet;
 }
 .container_f .image img {
   width: 100%;
