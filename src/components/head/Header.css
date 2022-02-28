@@ -1,9 +1,8 @@
 header {
   height: 10vh;
   /* line-height: 10vh; */
-  width: 100%;
 }
-header {
+header .container {
   padding-top: 15px;
 }
 header .logo {
@@ -67,12 +66,12 @@ header ul li a:hover {
   }
   header .logo {
     justify-content: start;
-    background: orange;
+    background: violet;
+    width: 30%;
   }
   header .logo img {
-    width: 100%;
+    /* margin-left: -3rem; */
     height: 2rem;
-    object-fit: contain;
   }
   header ul {
     padding-top: 30px;
