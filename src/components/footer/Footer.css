@@ -1,14 +1,14 @@
 .cont_f {
   height: 200px;
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
   font-family: "Berkshire Swash", cursive;
-  background: orange;
 }
 .cont_f .image img {
   width: 100%;
-  height: 3rem;
+  height: 2rem;
   object-fit: contain;
 }
