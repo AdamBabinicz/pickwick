@@ -14,7 +14,7 @@ const Resume = () => {
             <h3>Cytaty</h3>
           </div>
 
-          <div className="content-section mtop d_flex">
+          <div className="content-section d_flex">
             <div className="left">
               <div className="heading">
                 {/* <h4></h4> */}

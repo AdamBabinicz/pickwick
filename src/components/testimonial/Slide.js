@@ -44,9 +44,9 @@ const Slide = ({
               <MdFormatQuote />
             </div>
           </div>
-          <div className="content box_shadow mtop">
+          <div className="content box_shadow">
             <h2>{post}</h2>
-            <h3>{date}</h3>
+            <h4>{date}</h4>
             <h3>{desc}</h3>
           </div>
         </div>
