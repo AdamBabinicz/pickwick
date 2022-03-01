@@ -51,7 +51,9 @@ const Card = (props) => {
               <p>{props.desc_two}</p>
 
               <p>{props.title_three}</p>
-              <p>{props.desc_three}</p>
+              <p>
+                <em>{props.desc_three}</em>
+              </p>
 
               <button className="close-modal btn_shadow" onClick={toggleModal}>
                 <FaTimes />

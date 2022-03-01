@@ -65,6 +65,9 @@ body.active-modal {
   margin-bottom: 20px;
   line-height: 25px;
 }
+.modal-text p em {
+  font-size: 14px;
+}
 .modal-text button {
   margin-right: 20px;
   color: #ff014f;
